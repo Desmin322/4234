@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Salon</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+ 
+ function samochod(marka, model, rokprod, kolor,  wlasciciel) {
+ this.marka=marka;
+ this.model=model;
+ this.rokprod=rokprod;
+ this.kolor=kolor;
+ this.wlasciciel=wlasciciel;
+ }
+ 
+ function osoba(imie, nazwisko, wiek, plec) {
+ this.imie=imie;
+ this.nazwisko=nazwisko;
+ this.wiek=wiek;
+ this.plec=plec;
+ }
+
+klient=new osoba("Jan"  , "Kowalski"  , 26  , "m");
+pojazd=new samochod("Audi". "A4", 2012 , "czarny" , "Artur" );
+document.write("<b>Marka:</b> " +pojazd.marka+ "</br>");
+document.write("<b>Kolor</b> " +pojazd.kolor+ "</br>");
+document.write("<b>Imie</b> " +klient.imie+ "<br>");
+document.write("<b>Nazwisko</b>" +klient.nazwisko+ "<br>");
+document.write("<b>Wlasciciel</b>" +pojazd.wlasciciel+ "<br>");
+ 
+</script>
+
+</body>
+</html>
