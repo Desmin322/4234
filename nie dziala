@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <div class="container">
+    <div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+</div>
+
+</body>
+</html>
+
+-------------------------------------------------------------------------------------
+A w pliku style.css jest:
+.container {
+ display: flex;
+ flex-wrap: wrap;
+ flex-wrap: wrap;
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background: #ffffff;
+}
